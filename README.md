@@ -63,7 +63,7 @@ pandoc:
   filters:
     - pandoc-citeproc
   extra:
-    bibliography: "/path/to/bibfile.bib"
+    - bibliography: "/path/to/bibfile.bib"
   meta:
     - suppress-bibliography
 ```
